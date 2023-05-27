@@ -10,6 +10,21 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            body, html {
+                height: 100%;
+                position: relative;
+            }
+            .footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+            .full-width {
+                width: 100%;
+                height: auto;
+            }
+        </style>
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -20,20 +35,18 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        
                         <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
-
                         <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Insert Image -->
-        <div class="text-center">
-            <img src="istockphoto-487442884-612x612.jpeg" alt="Your Image">
+        <div class="text-center py-5">
+            <img class="full-width" src="istockphoto-487442884-612x612.jpeg" alt="Your Image">
         </div>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
+        <footer class="py-5 bg-dark footer">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Lia Ranjan 2023</p></div>
         </footer>
         <!-- Bootstrap core JS-->
@@ -42,3 +55,4 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
