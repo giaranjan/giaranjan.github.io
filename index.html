@@ -42,33 +42,59 @@
             }
         }
     </style>
+    <style>
+        .bg-image {
+          position: relative;
+        }
+        
+        .small-nav {
+          position: absolute;
+          top: 85%;
+          left:50%;
+          transform: translate(-50%, -50%); 
+        }
+      
+        .content-width {
+            
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        
+        p {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+
+        </style>
+
 </head>
 
 <body>
-    <!-- Responsive navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link fw-bol text-white" style="font-size: 1em;" href="https://giaranjan.github.io/">Home</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="https://giaranjan.github.io/Gallery/">About</a> </li>
-                    <li class="nav-item"><a class="nav-link fw-bol text-white" href="#!">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+
 
     <!-- Header - set the background image for the header in the line below-->
-    <header class="d-flex align-items-center bg-image-full" style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('Screenshot 2023-08-21 at 22.33.20.png'); margin-top: -8px; height:100vh;">
-        <div class="text-center w-100">
-            <h1 class="fs-1 fw-boldr" style="color: dark;">Gia Ranjan</h1>
-            <p class="mb-0" style="color: dark;">AI scientist, python developer and (in a past life) economist. Sometimes I do art.</p>
+    <header class="d-flex align-items-center bg-image-full" style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('Screenshot 2023-08-21 at 22.33.20.png'); margin-top: 1px; height:100vh;">
+        <div class="text-center w-100 content-width">
+            <h1 class="fs-1 fw-boldr" style="color: #1e2b32;">Gia Ranjan</h1>
+            <p class="mb-0" style="color: #1e2b32;"><br>AI scientist, python developer and (in a past life) economist. Sometimes I do art.<br>
+                <br>I am an AI scientist and (former) economist currently working at Lockheed Martin. I also conduct field research under Dr. George Loewenstein.<br>
+                <br>Prior to this, I studied Economics at King's College London and undertook several research projects as an undergraduate. I was a research assistant with David Aikman, Oliver Bush and Alan Taylor working on macroprudential policies and causal impacts of interest rates and credit controls in the era of UK Radcliffe Report . Following this, I undertook field research for the UN in Tanzania with Federica Margini and Diego Angemi, where I studied, analysed and experimented on 3 topics in social and economic policy - mobile money transaction in sub-Saharan Africa, urban-rural divide in health outcomes in Tanzania (conducted for Institute of Tropical Medicine Antwerp) and extractive industry fiscal policies. In my final year as an undergraduate, I completed a field internship with the UN in DRC under Thomas Maketa Lutete where I designed new economic models to tackle market failure in the DRC cocoa value chain.<br>
+
+            
+            </p>
+
         </div>
+
+        <div class="small-nav">
+            <a href="https://giaranjan.github.io/">Home</a> 
+            <a href="https://giaranjan.github.io/Gallery/">Gallery</a> 
+            <!-- <a href="contact.html">Contact</a> -->
+          </div>
     </header>
 
     <!-- Content section-->
-    <section class="py-0">
+    <!-- <section class="py-0">
         <div class="container my-5">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -78,20 +104,16 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Image element - set the background image for the header in the line below-->
-    <div class="py-5 bg-image-full" style="background-image: url('https://img.freepik.com/premium-vector/one-continuous-line-drawing-mountain-range-landscape-top-view-mounts-simple-linear-style_306763-686.jpg?w=1060'); background-size: contain;">
-        <div style="height: 10rem"></div>
-    </div>
+    </section> -->
     <!-- Content section-->
     <section class="py-0">
         <div class="container my-5">
             <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <h2>Interests</h2>
-                    <p class="mb-0">Interests blah blah blah blah 1111111</a></p>
+                <div class="col-lg-8" style="color: #1e2b32;">
+                    <h2>Interests, Some Shortcute, Papers and Research. Otherwise checkout the gallery it has all the cool stuff and all my works!</h2>
+                    <p class="mb-0" style="color: #1e2b32;">Interests blah blah blah blah 1111111</a></p>
                     <br>
-                    <p class="mb-0">Interests blah blah blah blah 2222222</a></p>
+                    <p class="mb-0" style="color: #1e2b32;">Interests blah blah blah blah 2222222</a></p>
                 </div>
             </div>
         </div>
@@ -101,7 +123,7 @@
         <div style="height: 10rem"></div>
     </div>
     <!-- Content section-->
-    <section class="py-0">
+    <!-- <section class="py-0">
         <div class="container my-5">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -112,19 +134,19 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Image element - set the background image for the header in the line below-->
-    <div class="py-5 bg-image-full" style="background-image: url('https://img.freepik.com/premium-vector/one-continuous-line-drawing-mountain-range-landscape-top-view-mounts-simple-linear-style_306763-686.jpg?w=1060'); background-size: contain;">
+    <!-- <div class="py-5 bg-image-full" style="background-image: url('https://img.freepik.com/premium-vector/one-continuous-line-drawing-mountain-range-landscape-top-view-mounts-simple-linear-style_306763-686.jpg?w=1060'); background-size: contain;">
         <div style="height: 10rem"></div>
-    </div>
+    </div> -->
     <!-- Content section-->
     <section class="py-5">
         <div class="container my-5">
             <div class="row justify-content-center">
-                <div class="col-lg-8">
+                <div class="col-lg-8" style="color: #1e2b32;">
                     <h2>Links</h2>
-                    <p class="lead">I will update this..</p>
-                    <p class="mb-0">
+                    <p class="lead" style="color: #1e2b32;">I will update this..</p>
+                    <p class="mb-0" style="color: #1e2b32;">
                         1. Email ~ ranjanrgia (at) gmail (dot) com<br>
                         2. Linkedin <a href="https://www.linkedin.com/in/nadine-lee-64b210157/">https://www.linkedin.com/in/nadine-lee-64b210157/</a><br>
                         3. Github <a href="https://github.com/giaranjan">https://github.com/giaranjan</a><br>
@@ -142,8 +164,8 @@
         </div>
     </section>
     <!-- Footer-->
-     <footer class="py-5 bg-black">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Gia Ranjan 2023</p></div>
+     <footer class="py-5 bg-light" style="color: black;>
+            <div class="container"><p class="m-0 text-center text-dark">Copyright &copy; Gia Ranjan 2023</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -151,3 +173,4 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
